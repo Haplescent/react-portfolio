@@ -56,5 +56,11 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.23.0",
     "rollup-plugin-terser": "^6.1.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
