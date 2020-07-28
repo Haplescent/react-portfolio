@@ -1,0 +1,23 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "John Merritt updated Portfolio for UC Berkeley Extension class assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haplescent/react-portfolio.git"
+  },
+  "keywords": [
+    "react",
+    "portfolio"
+  ],
+  "author": "John Merritt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Haplescent/react-portfolio/issues"
+  },
+  "homepage": "https://github.com/Haplescent/react-portfolio#readme"
+}
