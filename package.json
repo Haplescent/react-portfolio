@@ -8,6 +8,17 @@
     "lint:fix": "prettier-eslint $PWD/'src/**/*.js' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "npm run lint:fix",
+      "git add"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Haplescent/react-portfolio.git"
@@ -30,6 +41,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.4",
     "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
     "prettier": "^2.0.5",
     "prettier-eslint": "^11.0.0",
     "prettier-eslint-cli": "^5.0.0"
